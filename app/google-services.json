@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "804804491475",
+    "project_id": "idealize-99f6a",
+    "firebase_url": "https://idealize-99f6a-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "storage_bucket": "idealize-99f6a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:804804491475:android:19173187a52cc33a1a3c26",
+        "android_client_info": {
+          "package_name": "com.example.dora"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbVEU7ipgqqE8sbCQeS6kiw1EBbvoimR8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

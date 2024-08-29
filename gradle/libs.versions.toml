@@ -1,0 +1,61 @@
+[versions]
+agp = "8.5.0-beta02"
+converterScalars = "2.9.0"
+firebaseBom = "33.1.1"
+junit = "4.13.2"
+junitVersion = "1.1.5"
+espressoCore = "3.5.1"
+appcompat = "1.7.0"
+material = "1.12.0"
+googleGmsGoogleServices = "4.4.2"
+firebaseDatabase = "21.0.0"
+activity = "1.9.0"
+constraintlayout = "2.1.4"
+firebaseFirestore = "25.0.0"
+firebaseMessaging = "24.0.0"
+multidex = "2.0.1"
+retrofit = "2.9.0"
+roundedimageview = "2.3.0"
+sdpAndroid = "1.0.6"
+sspAndroid = "1.0.6"
+generativeai = "0.8.0"
+media3Ui = "1.3.1"
+kotlin = "2.0.0"
+coreKtx = "1.13.1"
+firebaseAuthKtx = "23.0.0"
+media3Common = "1.3.1"
+media3Exoplayer = "1.3.1"
+firebaseStorage = "21.0.0"
+
+[libraries]
+converter-scalars = { module = "com.squareup.retrofit2:converter-scalars", version.ref = "converterScalars" }
+firebase-analytics = { module = "com.google.firebase:firebase-analytics" }
+firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBom" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+firebase-database = { group = "com.google.firebase", name = "firebase-database", version.ref = "firebaseDatabase" }
+activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+firebase-firestore = { group = "com.google.firebase", name = "firebase-firestore", version.ref = "firebaseFirestore" }
+firebase-messaging = { group = "com.google.firebase", name = "firebase-messaging", version.ref = "firebaseMessaging" }
+multidex = { module = "androidx.multidex:multidex", version.ref = "multidex" }
+retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
+roundedimageview = { module = "com.makeramen:roundedimageview", version.ref = "roundedimageview" }
+sdp-android = { module = "com.intuit.sdp:sdp-android", version.ref = "sdpAndroid" }
+ssp-android = { module = "com.intuit.ssp:ssp-android", version.ref = "sspAndroid" }
+generativeai = { group = "com.google.ai.client.generativeai", name = "generativeai", version.ref = "generativeai" }
+media3-ui = { group = "androidx.media3", name = "media3-ui", version.ref = "media3Ui" }
+core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+firebase-auth-ktx = { group = "com.google.firebase", name = "firebase-auth-ktx", version.ref = "firebaseAuthKtx" }
+media3-common = { group = "androidx.media3", name = "media3-common", version.ref = "media3Common" }
+media3-exoplayer = { group = "androidx.media3", name = "media3-exoplayer", version.ref = "media3Exoplayer" }
+firebase-storage = { group = "com.google.firebase", name = "firebase-storage", version.ref = "firebaseStorage" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+google-gms-google-services = { id = "com.google.gms.google-services", version.ref = "googleGmsGoogleServices" }
+jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+

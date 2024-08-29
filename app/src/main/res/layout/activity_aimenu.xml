@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@drawable/background02"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activityAI.AIMenu">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AI Assistant"
+            android:background="@color/primary"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_20sdp"
+            android:gravity="center"
+            android:paddingTop="@dimen/_10sdp"
+            android:paddingBottom="@dimen/_10sdp"/>
+
+        <Button
+            android:id="@+id/button_feature1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_160sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:background="@drawable/background_chat_input"
+            android:text="Chat with me"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/button_feature2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:background="@drawable/background_chat_input"
+            android:text="Image Assistant"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/button_feature3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/background_chat_input"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:text="One Time ASK"
+            android:textColor="@color/white"/>
+
+
+    </LinearLayout>
+    <!-- New Navigation Bar -->
+    <LinearLayout
+        android:id="@+id/navigationBar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:background="@color/primary_dark"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/_10sdp"
+        android:paddingBottom="@dimen/_10sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageButton
+            android:id="@+id/nav_video"
+            android:layout_width="0dp"
+            android:layout_height="51dp"
+            android:layout_weight="1"
+            android:background="?attr/selectableItemBackground"
+            android:text="Video"
+            android:src="@drawable/ic_shorts"
+            android:textColor="@color/white" />
+
+        <ImageButton
+            android:id="@+id/nav_chat"
+            android:layout_width="0dp"
+            android:layout_height="51dp"
+            android:layout_weight="1"
+            android:background="?attr/selectableItemBackground"
+            android:src="@drawable/ic_chat"
+            android:text="Chat"
+            android:textColor="@color/white" />
+
+        <ImageButton
+            android:id="@+id/nav_ai"
+            android:layout_width="0dp"
+            android:layout_height="51dp"
+            android:layout_weight="1"
+            android:background="?attr/selectableItemBackground"
+            android:src="@drawable/ic_aisearch"
+            android:text="AI"
+            android:textColor="@color/white" />
+
+        <ImageButton
+            android:id="@+id/nav_music"
+            android:layout_width="0dp"
+            android:layout_height="51dp"
+            android:layout_weight="1"
+            android:background="?attr/selectableItemBackground"
+            android:src="@drawable/ic_music"
+            android:text="Music"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
